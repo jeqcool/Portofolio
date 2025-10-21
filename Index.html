@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Muhammad Dzaki Farizqi - Web Developer</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+
+    <nav>
+        <div class="container">
+            <a href="#" class="nav-logo">Muhammad Dzaki Farizqi</a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Ubah tema">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section id="hero" class="full-section">
+        <div class="container">
+            <h1>Halo, Saya Muhammad Dzaki Farizqi.</h1>
+            <h2>
+                Saya seorang 
+                <span id="typewriter" class="typewriter"></span>
+                <span class="cursor">&nbsp;</span>
+            </h2>
+            <p class="hero-tagline">
+                Saya mengubah ide menjadi aplikasi web yang interaktif dan menarik.
+            </p>
+            <a href="#projects" class="btn btn-primary">Lihat Proyek Saya</a>
+            <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in">
+        <div class="container about-container">
+            <img src="Image/pas poto.JPG" alt="Foto Profil" class="profile-pic">
+            <div class="about-text">
+                <h2>Tentang Saya</h2>
+                <!-- <p>
+                    Saya adalah seorang web developer yang bersemangat dalam membangun solusi digital yang efisien dan elegan. Dengan keahlian di bidang front-end dan back-end, saya menikmati setiap proses, mulai dari merancang UI hingga mengoptimalkan performa database.
+                </p>
+                <p>
+                    Di luar coding, saya suka [Hobi Anda, misal: membaca buku, bermain catur, atau menjelajahi teknologi baru]. Saya percaya bahwa rasa ingin tahu adalah kunci untuk terus berkembang.
+                </p> -->
+                <p>
+                    Lulusan Sistem Informasi dari STMIK Jakarta STI&K dengan
+                    dasar yang kokoh dalam teknologi dan pemikiran analitis. Sangat
+                    termotivasi, adaptif, dan bersemangat untuk terus belajar sambil
+                    berkontribusi secara positif di lingkungan apa pun.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <div class="container">
+            <h2>Keahlian Saya</h2>
+            <div class="skill-grid">
+                <div class="skill-card fade-in">
+                    <i class="fa-brands fa-html5 skill-icon" style="color: #E34F26;"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fa-brands fa-css3-alt skill-icon" style="color: #1572B6;"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fa-brands fa-js skill-icon" style="color: #F7DF1E;"></i>
+                    <h3>JavaScript (ES6+)</h3>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fa-brands fa-react skill-icon" style="color: #61DAFB;"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fa-brands fa-node-js skill-icon" style="color: #339933;"></i>
+                    <h3>Node.js</h3>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="fa-brands fa-git-alt skill-icon" style="color: #F05032;"></i>
+                    <h3>Git</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <div class="container">
+            <h2>Proyek Saya</h2>
+            <div class="project-grid">
+
+                <div class="project-card fade-in">
+                    <img src="Image/Game BOB.png" alt="Breath Of Balance (BOB) Project">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Unity</span>
+                            <span class="tag">Game Dev</span>
+                            <span class="tag">Website</span>
+                        </div>
+                        <h3>Breath Of Balance (BOB)</h3>
+                        <p><strong>(Nov 2023 - Des 2023)</strong> - Game interaktif yang terintegrasi dengan website. Dikembangkan menggunakan engine Unity.</p>
+                        <div class="project-links">
+                            <!-- <a href="#" target="_blank" class="btn">Lihat Demo</a> -->
+                            <a href="#" target="_blank" class="btn btn-secondary">
+                                <i class="fa-brands fa-github"></i> Kode
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card fade-in">
+                    <img src="https://via.placeholder.com/400x250.png?text=Aplikasi+MBKM" alt="MBKM Student Application Project">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Backend</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">Aplikasi</span>
+                        </div>
+                        <h3>MBKM Student Application</h3>
+                        <p><strong>(Nov 2024 - Feb 2025)</strong> - Bekerja sebagai backend developer menggunakan Java untuk aplikasi pendaftaran dan partisipasi program MBKM.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-secondary">
+                                <i class="fa-brands fa-github"></i> Kode
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="project-card fade-in">
+                    <img src="Image/Dashboard EMC.png" alt="Waste Management Dashboard Project">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Web App</span>
+                            <span class="tag">Dashboard</span>
+                            <span class="tag">Multi-user</span>
+                        </div>
+                        <h3>Waste Management Dashboard</h3>
+                        <p><strong>(Mei 2025 - Jun 2025)</strong> - Dashboard web untuk manajemen limbah dengan sistem multi-user (Manajer, Staf, Magang) mencakup berbagai modul data.</p>
+                        <div class="project-links">
+                            <!-- <a href="#" target="_blank" class="btn">Demo</a> -->
+                            <a href="#" target="_blank" class="btn btn-secondary">
+                                <i class="fa-brands fa-github"></i> Kode
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <img src="Image/Beranda UKM.png" alt="Student Activity Unit Website Project">
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Website</span>
+                            <span class="tag">Admin Panel</span>
+                            <span class="tag">CMS</span>
+                        </div>
+                        <h3>Student Activity Unit Website</h3>
+                        <p><strong>(Jun 2025 - Agu 2025)</strong> - Membangun website UKM universitas lengkap dengan dashboard admin untuk mengelola konten, anggota, dan kegiatan.</p>
+                        <div class="project-links">
+                            <!-- <a href="#" target="_blank" class="btn">Demo</a> -->
+                            <a href="#" target="_blank" class="btn btn-secondary">
+                                <i class="fa-brands fa-github"></i> Kode
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <p class="contact-sub">Punya ide proyek atau ingin berkolaborasi? Kirimkan saya pesan!</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/jeqcool" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="linkedin.com/in/dzakifrzq" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/6287741391269" target="_blank" aria-label="Twitter"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://wa.me/6287775700519" target="_blank" aria-label="Twitter"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Muhammad Dzaki Farizqi. Dibuat dengan <i class="fa-solid fa-heart" style="color: red;"></i>.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
